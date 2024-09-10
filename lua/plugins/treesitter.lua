@@ -9,7 +9,10 @@ return {
       "lua",
       "vim",
       "typescript",
+      "javacript",
       "elixir",
+      "golang",
+      "python",
       -- add more arguments for adding more treesitter parsers
     })
   end,

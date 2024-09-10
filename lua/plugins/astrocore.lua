@@ -56,7 +56,6 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
-        ["\\"] = { "<Nop>", desc = "Reserve backslash as leader" },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
@@ -64,6 +63,7 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+        ["\\"] = false, -- reserve backslash as leader
       },
     },
   },
