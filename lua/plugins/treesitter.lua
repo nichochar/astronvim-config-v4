@@ -13,7 +13,11 @@ return {
       "elixir",
       "go",
       "python",
+      "markdown",
+      "vimdoc",
+      "c",
       -- add more arguments for adding more treesitter parsers
     })
+    opts.auto_install = true
   end,
 }
