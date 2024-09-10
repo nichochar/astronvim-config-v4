@@ -9,7 +9,7 @@ return {
       "lua",
       "vim",
       "typescript",
-      "javacript",
+      "javascript",
       "elixir",
       "golang",
       "python",
