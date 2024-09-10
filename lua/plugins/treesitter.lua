@@ -11,7 +11,7 @@ return {
       "typescript",
       "javascript",
       "elixir",
-      "golang",
+      "go",
       "python",
       -- add more arguments for adding more treesitter parsers
     })
