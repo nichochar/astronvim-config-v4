@@ -42,6 +42,28 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      cssls = {
+        settings = {
+          css = {
+            validate = true,
+            lint = {
+              unknownAtRules = "ignore",
+            },
+          },
+          scss = {
+            validate = true,
+            lint = {
+              unknownAtRules = "ignore",
+            },
+          },
+          less = {
+            validate = true,
+            lint = {
+              unknownAtRules = "ignore",
+            },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {
